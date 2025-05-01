@@ -60,8 +60,9 @@ test("displays the correct links", () => {
 
   expect(linkedinLink).toHaveAttribute(
     "href",
-    expect.stringContaining("https://linkedin.com")
+    expect.stringContaining("https://www.linkedin.com")
   );
+  
 });
 
 // Newsletter Form - Initial State
